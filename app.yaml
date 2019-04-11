@@ -1,0 +1,6 @@
+runtime: go111
+service: auth-sample
+
+handlers:
+- url: /.*
+  script: auto
